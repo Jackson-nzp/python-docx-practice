@@ -9,16 +9,16 @@ from docx.shared import Pt  #设置字号，间距
 from docx.oxml.ns import qn  # 设置中文字体
 
 document = Document()#新建文档
-number = document.add_paragraph().add_run('200825027') #添加段落及段内文字
+number = document.add_paragraph().add_run('xxx') #添加段落及段内文字
 number.font.size= Pt(26) #设置文字字号
 number.font.color.rgb=RGBColor(128, 0, 128) #设置文字颜色，紫色rgb
 #下同
-college = document.add_paragraph().add_run('商学院')
+college = document.add_paragraph().add_run('xxx')
 college.font.size = Pt(26)
 college.font.color.rgb=RGBColor(128, 0, 128)
 
 paragraph_3= document.add_paragraph()
-name=paragraph_3.add_run('王柯蓉')
+name=paragraph_3.add_run('xxx')
 name.font.size = Pt(26)
 name.font.color.rgb=RGBColor(128, 0, 128)
 
